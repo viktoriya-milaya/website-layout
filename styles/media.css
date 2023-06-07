@@ -1,0 +1,910 @@
+@media screen and (max-width: 1560px) {
+
+    .action-card {
+        width: 655px;
+    }
+
+    .about-img {
+        width: 655px;
+    }
+
+
+    .products-list__img {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .product-card {
+        padding: 47px 20px 35px;
+    }
+
+
+}
+
+@media screen and (max-width: 1480px) {
+
+    .header-link-groop {
+        gap: 80px;
+    }
+
+    .action-card {
+        width: 615px;
+    }
+
+    .about-img {
+        width: 615px;
+    }
+
+    .food-list__item {
+        padding: 222px 70px;
+
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .action-card {
+        width: 585px;
+        height: auto;
+        font-size: 36px;
+        line-height: 48px;
+        padding: 85px 0 85px 55px;
+
+    }
+
+    .action-card__title {
+        max-width: 234px;
+    }
+
+    .action-card-1 {
+        background: url(../imges/1-action-img.png) 20% no-repeat;
+    }
+
+    .about-img {
+        width: 405px;
+    }
+
+    .about-content {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .advantage-list {
+        margin: 40px 0 0 -405px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .about__button {
+        margin-left: -405px;
+    }
+
+
+    .products-list {
+        justify-content: center;
+        gap: 30px;
+
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .action-card {
+        width: 555px;
+    }
+
+    .food-list__item {
+        padding: 212px 55px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1280px) {
+
+
+    .action-card {
+        width: 525px;
+        padding: 85px 0 85px 55px;
+    }
+
+    .action-card-1 {
+        background: url(../imges/1-action-img.png) 20% no-repeat;
+    }
+
+    .products-list__img {
+        width: 240px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .product-card__title {
+        font-size: 18px;
+        padding: 20px 0 0;
+    }
+
+    .product-card__price {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+
+    }
+
+
+    .price_light {
+        font-size: 16px;
+    }
+
+    .price_bold {
+        font-size: 16px;
+
+    }
+
+    .eco-content {
+
+        padding: 30px 0 30px 40px;
+        max-width: 720px;
+
+    }
+
+    .eco-list {
+        margin-top: 16px;
+    }
+
+    .headding_small {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .product-card {
+        padding: 55px 25px 25px;
+    }
+
+    .food-list {
+        gap: 20px;
+
+    }
+
+    .food-list__item {
+        padding: 202px 50px;
+    }
+
+    .button_white {
+        width: 240px;
+        height: 82px;
+    }
+
+    .call-to-action-content {
+        padding: 100px 60px;
+
+    }
+
+    input[type="email"] {
+        width: 320px;
+    }
+
+    .footer-logo__content-text {
+        max-width: 440px;
+    }
+
+
+}
+
+@media screen and (max-width: 1210px) {
+
+    .header-link-groop {
+        gap: 60px;
+    }
+
+    .header__link {
+        padding: 10px 10px;
+
+    }
+
+
+    .action-card {
+        width: 485px;
+        padding: 65px 0 65px 55px;
+    }
+
+
+    .eco-content {
+
+        padding: 30px 0 55px 60px;
+        max-width: 600px;
+
+    }
+
+    .products-list {
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+
+    .logo,
+    .navigation,
+    .cart-icon__round {
+        display: none;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .mobile-nav-list {
+        position: fixed;
+        right: 0;
+        top: 90px;
+        padding: 20px;
+        background: #F9F8F8;
+        z-index: 1;
+    }
+
+    .mobile-link {
+        font-size: 16px;
+        margin: 10px;
+        line-height: 24px;
+    }
+
+    [for="burger"] {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 28px;
+        color: inherit;
+        font-size: 24px;
+
+    }
+
+    [for="burger"]::before {
+        content: "☰";
+    }
+
+    #burger:checked+label+nav {
+        display: block;
+    }
+
+    #burger:checked+[for="burger"]::before {
+        content: "⮾";
+        font-size: 24px;
+        position: fixed;
+        right: 0;
+
+    }
+
+    .logo_small {
+        display: block;
+    }
+
+    .header-link-groop {
+        display: block;
+    }
+
+    .cart {
+        width: 160px;
+        height: 48px;
+        padding: 8px;
+    }
+
+    .cart-icon g {
+        stroke: #7EB693;
+    }
+
+    .cart-text {
+        margin-left: 6px;
+
+    }
+
+    .action-card {
+        width: 665px;
+        padding: 105px 0 105px 55px;
+
+    }
+
+    .actions {
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px 0;
+
+    }
+
+    .action-card-1 {
+        margin-bottom: 60px;
+    }
+
+    .testimonial__content-text {
+        max-width: 610px;
+    }
+
+    .advantage-round-list {
+        gap: 20px;
+    }
+
+
+    .advantage-round {
+        width: 210px;
+        height: 210px;
+    }
+
+    .advantage-round_light {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .food-list__item {
+        padding: 182px 50px;
+    }
+
+    .button_white {
+        width: 180px;
+        height: 48px;
+    }
+
+    .call-to-action-content {
+        padding: 60px;
+
+    }
+
+    .call-to-action__headding {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+
+    .footer-logo {
+        max-width: 360px;
+
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .main-screen {
+        background: url(../imges/main-img.png) no-repeat 50% 50%;
+    }
+
+    .main-screen-content {
+        padding: 100px 0;
+    }
+
+    .first-headding {
+        font-size: 60px;
+        line-height: 66px;
+        padding: 8px 0 30px;
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        line-height: 48px;
+        border-radius: 10px;
+        align-items: center;
+        padding: 0 20px;
+        height: 48px;
+    }
+
+    .arrow-icon {
+        display: none;
+    }
+
+
+    .button:hover {
+        transform: none;
+
+    }
+
+
+    .about {
+        padding: 100px 0;
+    }
+
+    .headding {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .content-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .advantage-list {
+        margin-top: 10px;
+
+    }
+
+    .advantage-list__item {
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .products {
+        padding: 100px 0;
+    }
+
+
+    .testimonial {
+        padding: 100px 0;
+    }
+
+    .testimonial-card {
+        padding: 0;
+    }
+
+
+    .testimonial__content-text {
+        padding: 23px 0 20px;
+    }
+
+    .consumer-name {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .horizontal-rule {
+        margin: 60px auto;
+        max-width: 966px;
+        background: #E0E0E0;
+        height: 1px;
+    }
+
+
+    .advantage-round-value {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .advantage-round-title {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .offer {
+        padding: 100px 0;
+
+    }
+
+    .offer__button {
+        top: 61px;
+    }
+
+    .offer-products-list {
+        flex-wrap: nowrap;
+    }
+
+
+    .headding_small {
+        font-size: 20px;
+    }
+
+
+
+    .call-to-action {
+        padding-top: 0;
+    }
+
+
+    .call-to-action-content {
+        padding: 50px;
+
+    }
+
+    .call-to-action__headding {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    input[type="email"] {
+        font-size: 16px;
+        line-height: 48px;
+        width: 280px;
+        height: 48px;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+
+
+    .footer-content {
+        padding: 70px 0;
+        flex-wrap: wrap;
+    }
+
+    .footer__headding {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .contact-list {
+        color: #525C60;
+        padding-top: 20px;
+    }
+
+    .contact-list__item {
+        padding-bottom: 20px;
+    }
+
+    .footer-logo {
+        order: 1;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .main-screen {
+        background: url(../imges/main-img.png) no-repeat 30% 50%;
+    }
+
+    .first-headding {
+        font-size: 48px;
+        line-height: 56px;
+        max-width: 360px;
+    }
+
+    .brief {
+        font-size: 28px;
+        line-height: 40px;
+
+    }
+
+    .action-card {
+        width: 585px;
+        padding: 85px 0 85px 55px;
+        font-size: 32px;
+        line-height: 42px;
+
+    }
+
+    .action-card-1 {
+        margin-bottom: 30px;
+    }
+
+
+
+    .headding {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about__content-text {
+        padding: 20px 0;
+    }
+
+
+    .about__headding {
+        max-width: 380px;
+    }
+
+    .about-img {
+        position: absolute;
+        width: 285px;
+        top: 260px;
+        left: 120px;
+    }
+
+    .about-content {
+        position: relative;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .advantage-list {
+        margin: 280px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .about__button {
+        margin-left: 0px;
+    }
+
+    .advantage__title {
+        font-size: 20px;
+    }
+
+    .testimonial__content-text {
+        max-width: 460px;
+
+    }
+
+    .advantage-round-list {
+        gap: 60px;
+    }
+
+
+    .offer__headding {
+        max-width: 300px;
+    }
+
+    .offer__button {
+        top: 60px;
+    }
+
+    .offer-products-list {
+        flex-wrap: wrap;
+    }
+
+
+    .offer-products-list__item-1 {
+        display: none;
+    }
+
+
+    .headding_small {
+        font-size: 18px;
+    }
+
+
+    .food-list__item {
+        padding: 162px 35px;
+    }
+
+    .button_white {
+        width: 160px;
+        height: 48px;
+    }
+
+    .call-to-action-content {
+        padding: 30px;
+        display: block;
+
+    }
+
+    .call-to-action__headding {
+        font-size: 28px;
+        max-width: 400px;
+        line-height: 60px;
+    }
+
+
+    .footer-content {
+        padding: 80px 0;
+        justify-content: center;
+    }
+
+    .contact {
+        max-width: 200px;
+    }
+
+    .contact-list__item {
+        padding-bottom: 0;
+    }
+
+    .footer__headding {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .icon-list {
+        gap: 20px;
+        padding-top: 0;
+    }
+
+    .icon-round {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-logo__content-text {
+        padding-top: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .cart {
+        width: 48px;
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .cart-icon {
+        margin-left: -5px;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+
+    .main-screen {
+        background: url(../imges/main-img.png) no-repeat 30% 50%;
+    }
+
+    .first-headding {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .actions {
+        padding: 40px 0;
+
+      }
+
+
+    .action-card {
+        width: 405px;
+        padding: 35px 0 35px 35px;
+
+    }
+
+
+    .about-img {
+        top: 300px;
+        left: 50px;
+    }
+
+    .advantage-round-list {
+        gap: 20px;
+    }
+
+    .horizontal-rule {
+        max-width: 340px;
+    }
+
+    .testimonial__headding {
+        max-width: 320px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .testimonial__content-text {
+        max-width: 320px;
+
+    }
+  
+
+    .offer__button {
+        top: 160px;
+        left: 0;
+    }
+
+    .offer-products-list {
+        margin-top: 120px;
+    }
+
+    .offer-products-list__item-1 {
+        display: block;
+    }
+
+
+    .eco-content {
+        margin-left: 0;
+        padding: 30px;
+        max-width: 480px;
+
+    }
+
+    .eco-img {
+        display: none;
+    }
+
+
+
+    .advantage-round {
+        width: 160px;
+        height: 160px;
+    }
+
+    .advantage-round_light {
+        width: 150px;
+        height: 150px;
+    }
+
+    .advantage-round-value {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .advantage-round-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .food {
+        padding: 60px 0;
+      }
+
+
+    .call-to-action__headding {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .call-to-action__input{
+        flex-wrap: wrap;
+    }
+
+   
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .main-screen {
+        background: url(../imges/main-img.png) no-repeat 50% 0%;
+    }
+
+    .first-headding {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+
+    .action-card {
+        width: 315px;
+        padding: 25px 0 25px 25px;
+        font-size: 24px;
+        line-height: 32px;
+
+    }
+
+    .about-img {
+        top: 330px;
+        left: 50px;
+    }
+
+
+
+    .horizontal-rule {
+        max-width: 340px;
+    }
+
+    .advantage-round {
+        width: 140px;
+        height: 140px;
+    }
+
+    .advantage-round_light {
+        width: 130px;
+        height: 130px;
+    }
+
+    .footer__content-text{
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    .footer__link{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .about-img {
+        top: 360px;
+        left: 40px;
+    }
+    
+    .footer-content{
+        gap: 40px;
+        padding: 80px 0 20px;
+    }
+
+}
+
+   
